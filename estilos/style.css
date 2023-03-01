@@ -21,13 +21,11 @@ header{
     background-size: auto;
     height: 30vh;
     width: 96vw;
-    text-align: end;
-    padding-top: 50px;
+    padding: 50px 0px 10px 0px;
 }
 
 header .imghead {
     width: 250px;
-    padding-left: 20px;
 }
 menu > ul{
     text-align: center;
@@ -52,14 +50,8 @@ menu > ul > li > a {
 }
 
 #menulittle{
-    display: inline-block;
-    position: absolute;
     font-size: 4em;
     color: white;
-    padding: 30px;
-
-    top: 280px;
-    left: 380px;
 }
 
 #menulittle:hover{
