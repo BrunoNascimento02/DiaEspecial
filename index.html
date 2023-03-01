@@ -11,30 +11,76 @@
 <body>
     <header>
         <div class="imghead">
-            <img src="imagens/logobranca450.png" alt="LogoEspecial">
+            <a href="#"><img src="imagens/logobranca450.png" alt="LogoEspecial" width="200"></a>
         </div>
-        <i id="menulittle" class="material-symbols-outlined">
-            menu
-        </i>
+        <span id="menulittle" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
     </header>
-    <menu>
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">SOBRE</a></li>
-            <li><a href="#">AUTORAIS</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">PORTIFOLIO</a></li>
-            <li><a href="#">ORDEM NA CASA</a></li>
-            <li><a href="#">CONTATO</a></li>
-        </ul>
-    </menu>
+    <div>
+        <menu style="display: none;">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SOBRE</a></li>
+                <li><a href="#">AUTORAIS</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">PORTIFOLIO</a></li>
+                <li><a href="#">ORDEM NA CASA</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
+        </menu>
+    </div>
 
     <main>
+        <article>
+            <div class="fraselocal">
+                <h1>Eternizando <br> Momentos</h1>
+                <br>
+                <h2>Em um laço de amor eterno</h2>
+                <br><br>
+                <aside>
+                    <br><p>Mirella Zanon Fotografia</p><br>
+                    <p>Estudio Fotográfico Dia Especial</p>
+                    <p>NEWBORN - FAMILIA - INFANTIL - ADULTO</p><br>
+                    <br><p>GAVEA - RIO DE JANEIRO</p>
+                </aside>
+            </div>
+            <div class="frasefoto">
+                <article>
+                    <img src="imagens/logopreto.png" alt="">
+                    <p> Olá, meu nome é Mirella Zanon, encontrei na fotografia o melhor caminho a ser trilhado. Registrar meus filhos trouxe a fotografia de vez para minha vida. Minha família é o que tenho de mais importante e a fotografia é uma extensão dela. <br><br>
 
+                    Sou especializada em fotografia newborn, de crianças e família. Para mim, cada trabalho é único. Gosto da simplicidade presente nas pequenas coisas e minha busca com a fotografia, é espalhar boas sementes na minha jornada. Será um prazer ser sua fotógrafa! </p><br>
+                    <br>
+                    <a href="#">SAIBA MAIS</a>
+                </article>
+            </div>
+            <div class="icones">
+                <picture>
+                    <a href="https://www.facebook.com/diaespecialfotografias"><img src="icon/facebook-2868.png" alt=""></a>
+                    <a href="https://www.instagram.com/diaespecialfotografias"><img src="icon/instagram-93.png" alt=""></a>
+                    <img src="icon/twitter-99.png" alt="">
+                    <img src="icon/whatsapp-103.png" alt="">
+                </picture>
+            </div>
+            <div>
+                <article class="fotodela">
+                    <picture>
+                        <img src="imagens/Mirella/2.jpg" alt="" width="500">
+                    </picture>
+                </article>
+            </div>
+
+        </article>
     </main>
 
     <script>
-        
+        function clickMenu() {
+            var menu = document.querySelector('menu');
+            if (menu.style.display == 'none') {
+                menu.style.display = 'block';
+            } else {
+              menu.style.display = 'none';
+            }
+          }
     </script>
 </body>
 </html>

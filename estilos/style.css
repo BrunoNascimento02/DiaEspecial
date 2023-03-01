@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Rajdhani', sans-serif; */
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -9,25 +15,27 @@
 
 header{
     display: flex;
-    background-color: gray;
-    height: 300px;
-    width: 100vw;
+    background-image: url('../imagens/fotografos/estudio1.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 252px;
+    width: 96vw;
     text-align: end;
     padding-top: 50px;
 }
 
-header > div > img {
-    width: 250px;
-}
-
 header .imghead {
     width: 250px;
-    padding-left: 50px;
+    padding-left: 20px;
 }
 menu ul{
     text-align: center;
     padding: 20px;
     list-style: none;
+}
+
+menu{
+    display: none;
 }
 
 menu > ul > li {
@@ -44,9 +52,113 @@ menu > ul > li > a {
 }
 
 #menulittle{
+    display: inline;
     font-size: 4em;
     color: white;
     padding-left: 200px;
+}
+
+#menulittle:hover{
+    cursor: pointer;
+}
+
+  header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-name: header;
+    animation-duration: 30s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes header {
+    0% {
+      background-image: url("../imagens/fotografos/estudio1.png");
+    }
+    33.33% {
+      background-image: url("../imagens/fotografos/casamento2.png");
+    }
+    50.67% {
+      background-image: url("../imagens/fotografos/nosgrande.png");
+    }
+    70% {
+      background-image: url("../imagens/fotografos/fotodeitadaela.png");
+    }
+    100%{
+        background-image: url("../imagens/fotografos/estudio1.png");
+    }
+  }
+  
+/* M A I N     C O N T E U D O     D O    S I T E*/
+
+main > article .fraselocal {
+    background-color: rgb(173, 146, 131);
+    padding: 20px 10px 50px 10px;
+}
+main > article .fraselocal > h1{
+    font-family:'Dancing Script',Arial, Helvetica, sans-serif;
+    font-size: 4.4em;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+main > article .fraselocal > h2{
+    font-family: 'Rajdhani',Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+
+main > article .fraselocal > aside > p {
+    font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+}
+
+/* C O N T E U D O    D A    L O G O    E    T E X T O   E M    S E G U I D A*/
+.frasefoto > article{
+    text-align: center;
+}
+
+.frasefoto > article > img {
+    width: 50vw;
+    text-align: center;
+}
+
+.frasefoto > article > p {
+    text-align: justify;
+    font-family: arial;   
+    padding: 0px 20px 0px 20px;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    color: rgb(195, 171, 171);
+}
+
+.frasefoto > article > a{
+    text-decoration: none;
+    color: rgb(195, 171, 171);
+    background-color: rgba(215, 215, 215, 0.239);
+    padding: 20px;
+    border: 1px solid rgba(4, 4, 4, 0.072);
+    border-radius: 5px;
+}
+
+.frasefoto > article > a:hover{
+    border: 1px solid rgba(0, 0, 0, 0.139);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.138);
+}
+
+.icones{
+    padding:40px 10px 10px 20px;
+    text-align: center;
+}
+
+.fotodela {
+    text-align: center;
+    padding: 50px 0px;
 }
 
 }
