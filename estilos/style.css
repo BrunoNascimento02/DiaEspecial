@@ -18,7 +18,7 @@ header{
     background-image: url('../imagens/fotografos/estudio1.png');
     background-repeat: no-repeat;
     background-size: auto;
-    height: 252px;
+    height: 30vh;
     width: 96vw;
     text-align: end;
     padding-top: 50px;
@@ -91,6 +91,10 @@ menu > ul > li > a {
   }
   
 /* M A I N     C O N T E U D O     D O    S I T E*/
+
+main{
+    width: 96vw;
+}
 
 main > article .fraselocal {
     background-color: rgb(173, 146, 131);
