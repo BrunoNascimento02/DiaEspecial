@@ -29,25 +29,24 @@ header .imghead {
     width: 250px;
     padding-left: 20px;
 }
-menu ul{
+menu > ul{
     text-align: center;
-    padding: 20px;
     list-style: none;
 }
 
-menu{
-    display: none;
+menu > ul > li {
+    padding: 30px 0px 20px 0px;
+    background-color: rgb(224, 173, 173);
+    transition: 200ms;
 }
 
-
-menu > ul > li {
-    padding-top: 40px;
-    background-color: rgb(224, 173, 173);
+menu > ul > li:hover{
+    background-color: rgb(90, 65, 79);
 }
 menu > ul > li > a {
     text-decoration: none;
-    padding: 5px;
-    border-radius: 10px;
+    padding: 20px 100px;
+    border-radius: 30px;
     color: white;
     font-weight: bolder;
 }
