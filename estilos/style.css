@@ -95,11 +95,13 @@ menu > ul > li > a {
 
 main{
     width: 96vw;
+    padding-top: 20px;
 }
 
 main > article .fraselocal {
     background-color: rgb(173, 146, 131);
-    padding: 20px 10px 50px 10px;
+    padding: 100px 10px 50px 10px;
+    border-radius: 10px;
 }
 main > article .fraselocal > h1{
     font-family:'Dancing Script',Arial, Helvetica, sans-serif;
