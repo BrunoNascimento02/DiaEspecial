@@ -36,18 +36,13 @@ menu ul{
 }
 
 menu{
-    width: 49vh;
     display: none;
 }
 
-menu > ul {
-    padding-left: 20px;
-}
 
 menu > ul > li {
-    padding: 30px;
+    padding-top: 40px;
     background-color: rgb(224, 173, 173);
-    text-align: end;
 }
 menu > ul > li > a {
     text-decoration: none;
@@ -61,7 +56,6 @@ menu > ul > li > a {
     display: inline;
     font-size: 4em;
     color: white;
-    padding-left: 200px;
 }
 
 #menulittle:hover{
@@ -80,19 +74,19 @@ menu > ul > li > a {
   
   @keyframes header {
     0% {
-      background-image: url("../imagens/fotografos/estudio1.png");
+      background-image: url("../imagens/imagens/header/infantil1200.jpg");
     }
-    33.33% {
-      background-image: url("../imagens/fotografos/casamento2.png");
+    23.33% {
+      background-image: url("../imagens/imagens/header/newborn1200.jpg");
     }
-    50.67% {
-      background-image: url("../imagens/fotografos/nosgrande.png");
+    45.67% {
+      background-image: url("../imagens/imagens/header/megu1200.jpg");
     }
-    70% {
-      background-image: url("../imagens/fotografos/fotodeitadaela.png");
+    60% {
+      background-image: url("../imagens/imagens/header/megu01200.jpg");
     }
     100%{
-        background-image: url("../imagens/fotografos/estudio1.png");
+        background-image: url("../imagens/imagens/header/infantil1200.jpg");
     }
   }
   
@@ -171,10 +165,6 @@ main > article .fraselocal > aside > p {
 .fotodela {
     text-align: center;
     padding: 50px 0px;
-}
-
-body{
-    width: 40vh;
 }
 
 }
