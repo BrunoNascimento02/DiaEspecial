@@ -52,9 +52,14 @@ menu > ul > li > a {
 }
 
 #menulittle{
-    display: inline;
+    display: inline-block;
+    position: absolute;
     font-size: 4em;
     color: white;
+    padding: 30px;
+
+    top: 280px;
+    left: 380px;
 }
 
 #menulittle:hover{
@@ -89,7 +94,7 @@ menu > ul > li > a {
     }
   }
   
-/* M A I N     C O N T E U D O     D O    S I T E*/
+                                                        /* M A I N     C O N T E U D O     D O    S I T E*/
 
 main{
     width: 96vw;
@@ -123,7 +128,7 @@ main > article .fraselocal > aside > p {
     color: white;
 }
 
-/* C O N T E U D O    D A    L O G O    E    T E X T O   E M    S E G U I D A*/
+                                            /* C O N T E U D O    D A    L O G O    E    T E X T O   E M    S E G U I D A*/
 .frasefoto > article{
     text-align: center;
 }
@@ -164,6 +169,10 @@ main > article .fraselocal > aside > p {
 .fotodela {
     text-align: center;
     padding: 50px 0px;
+}
+
+.fotodela > picture > img {
+    border-radius: 20px;
 }
 
 }
