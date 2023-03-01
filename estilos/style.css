@@ -14,7 +14,7 @@
 
 
 header{
-    display: flex;
+    display: block;
     background-image: url('../imagens/fotografos/estudio1.png');
     background-repeat: no-repeat;
     background-size: auto;
