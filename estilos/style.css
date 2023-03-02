@@ -13,6 +13,9 @@
 
 @media screen and (max-width: 600px) {
 
+html{
+    margin: auto;
+}
 
 header{
     background-image: url('../imagens/fotografos/estudio1.png');
@@ -53,7 +56,7 @@ menu > ul > li > a {
 #menulittle{
     font-size: 6em;
     color: rgb(255, 246, 246);
-    margin-top: 110px;
+    margin-top: 90px;
     margin-left: 260px;
 }
 
