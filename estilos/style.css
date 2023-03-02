@@ -13,16 +13,13 @@
 
 @media screen and (max-width: 600px) {
 
-html{
-    margin: auto;
-}
 
 header{
     background-image: url('../imagens/fotografos/estudio1.png');
     background-repeat: no-repeat;
     background-size: auto;
     height: 30vh;
-    width: 97vw;
+    width: 99vw;
     padding: 50px 0px 10px 0px;
 }
 
@@ -95,7 +92,7 @@ menu > ul > li > a {
                                                         /* M A I N     C O N T E U D O     D O    S I T E*/
 
 main{
-    width: 96vw;
+    width: 99vw;
     padding-top: 20px;
 }
 
