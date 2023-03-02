@@ -13,21 +13,23 @@
 
 @media screen and (max-width: 600px) {
 
+html{
+    padding: 0px 0px 0px 2px;
+    margin: 0px 0px 0px 2px;
+}
 
 header{
     height: 30vh;
-    width: 100vw;
     padding: 50px 0px 10px 0px;
+    border-radius: 2px;
 }
 
-header .imghead {
-    width: 250px;
-}
+
 menu > ul{
     padding: 10px 0px 0px 0px;
     text-align: center;
     list-style: none;
-    width: 97vw;
+    width: 96vw;
 }
 
 menu > ul > li {
