@@ -15,7 +15,6 @@
 
 
 header{
-    display: block;
     background-image: url('../imagens/fotografos/estudio1.png');
     background-repeat: no-repeat;
     background-size: auto;
@@ -31,7 +30,7 @@ menu > ul{
     padding: 10px 0px 0px 0px;
     text-align: center;
     list-style: none;
-    width: 96vw;
+    width: 95vw;
 }
 
 menu > ul > li {
@@ -55,9 +54,6 @@ menu > ul > li > a {
     font-size: 6em;
     color: rgb(255, 246, 246);
     margin-top: 150px;
-    position: absolute;
-    left: 1px;
-    top: 90px;
 }
 
 #menulittle:hover{
