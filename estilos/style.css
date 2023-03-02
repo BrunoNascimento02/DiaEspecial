@@ -28,8 +28,10 @@ header .imghead {
     width: 250px;
 }
 menu > ul{
+    padding: 10px 0px 0px 0px;
     text-align: center;
     list-style: none;
+    width: 96vw;
 }
 
 menu > ul > li {
