@@ -35,11 +35,11 @@ menu > ul{
 menu > ul > li {
     padding: 30px 0px 20px 0px;
     background-color: rgb(224, 173, 173);
-    transition: 200ms;
 }
 
 menu > ul > li:hover{
     background-color: rgb(90, 65, 79);
+    transition: 400ms;
 }
 menu > ul > li > a {
     text-decoration: none;
@@ -50,8 +50,12 @@ menu > ul > li > a {
 }
 
 #menulittle{
-    font-size: 4em;
-    color: white;
+    font-size: 6em;
+    color: rgb(255, 246, 246);
+    margin-top: 150px;
+    position: absolute;
+    left: 1px;
+    top: 160px;
 }
 
 #menulittle:hover{
