@@ -126,6 +126,7 @@ main > article .fraselocal > aside > p {
     color: white;
 }
 
+
                                             /* C O N T E U D O    D A    L O G O    E    T E X T O   E M    S E G U I D A*/
 .frasefoto > article{
     text-align: center;
@@ -164,12 +165,17 @@ main > article .fraselocal > aside > p {
     text-align: center;
 }
 
+.zoon:hover{
+    transform: scale(1.2);
+    transition: 500ms;
+}
+
 .fotodela {
     text-align: center;
     padding: 50px 0px;
 }
 
-.fotodela > picture > img {
+.fotodela > picture > a >img {
     border-radius: 20px;
 }
 
