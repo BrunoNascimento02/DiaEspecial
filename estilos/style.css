@@ -34,12 +34,9 @@ header{
     color: rgb(255, 255, 255);
 }
 
-#menulittle:hover{
-    transform: translate(1.2em);
-}
 
 #menulittle:active{
-    transform: scale(1.4);
+    transform: scale(2.6);
     transition: 400ms;
 }
 
