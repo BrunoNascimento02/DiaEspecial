@@ -194,4 +194,44 @@ main > article .fraselocal > aside > p {
     border-radius: 20px;
 }
 
+                                /* D   E   P   O   I   M   E   N   T   O   S*/
+
+.depoimento{
+    margin-top: 50px;
+    padding: 20px 0px 20px 0px;
+    background-color: rgb(175, 150, 137);
+    height: 1130px;
+}
+
+.depoimento > h2{
+    font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 5em;
+    padding: 60px;
+    color: white;
+}
+
+.depoimento >div> picture> h3{
+    font-size: 2.4em;
+    color: white;
+    font-family: 'Dancing Script',Arial, Helvetica, sans-serif;
+}
+
+.depoimento > div{
+    text-align: center;
+}
+
+.depoimento > div > picture > img {
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.depoimento > div > picture > p{
+    font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
+    padding: 50px 70px 50px 70px;
+    font-size: 1.4em;
+    line-height: 1.5;
+    color: white;
+}
+
 }
