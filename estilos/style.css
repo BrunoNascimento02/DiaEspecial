@@ -14,18 +14,25 @@
 
 
 header{
-    height: 30vh;
+    height: 40vh;
     width: 96vw;
     padding: 50px 0px 10px 0px;
     border-radius: 2px;
 }
 
+.imghead{
+    text-align: center;
+}
 
+.menulittle1{
+    text-align: end;
+    background-color: rgb(173, 146, 131);
+    margin: 0px 3px 0px 0px;
+}
 #menulittle{
-    font-size: 6em;
-    color: rgb(255, 246, 246);
-    margin-top: 90px;
-    margin-left: 260px;  
+    font-size: 2.3em;
+    padding-left: 60vw;
+    color: rgb(255, 255, 255);
 }
 
 #menulittle:active{
@@ -38,7 +45,6 @@ header{
 }
 
 menu > ul{
-    padding: 10px 0px 0px 0px;
     text-align: center;
     list-style: none;
     width: 96vw;
@@ -46,7 +52,7 @@ menu > ul{
 
 menu > ul > li {
     padding: 30px 0px 20px 0px;
-    background-color: rgb(224, 173, 173);
+    background-color: rgb(173, 146, 131);
 }
 
 menu > ul > li:hover{
@@ -58,6 +64,7 @@ menu > ul > li > a {
     border-radius: 30px;
     color: white;
     font-weight: bolder;
+    padding: 20px;
 }
 
   header {
@@ -127,17 +134,19 @@ main > article .fraselocal > aside > p {
                                             /* C O N T E U D O    D A    L O G O    E    T E X T O   E M    S E G U I D A*/
 .frasefoto > article{
     text-align: center;
+    padding-bottom: 80px;
 }
 
 .frasefoto > article > img {
     width: 50vw;
     text-align: center;
+    opacity: 0.7;
 }
 
 .frasefoto > article > p {
     text-align: justify;
     font-family: arial;   
-    padding: 0px 20px 0px 20px;
+    padding: 0px 20px 50px 20px;
     line-height: 1.5em;
     font-size: 1.1em;
     color: rgb(195, 171, 171);
@@ -147,7 +156,7 @@ main > article .fraselocal > aside > p {
     text-decoration: none;
     color: rgb(195, 171, 171);
     background-color: rgba(215, 215, 215, 0.239);
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
     border: 1px solid rgba(4, 4, 4, 0.072);
     border-radius: 5px;
 }
@@ -158,8 +167,17 @@ main > article .fraselocal > aside > p {
 }
 
 .icones{
-    padding:40px 10px 10px 20px;
+    padding:10px 10px 10px 20px;
     text-align: center;
+    opacity: 0.6;
+}
+
+.icones img:hover{
+    transform: scale(1.1);
+}
+
+.icones a{
+    padding: 0px 20px 0px 20px;
 }
 
 .zoon:hover{
