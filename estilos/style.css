@@ -34,9 +34,13 @@ header{
     color: rgb(255, 255, 255);
 }
 
+#menulittle:hover{
+    transform: translate(1.2em);
+}
+
 #menulittle:active{
     transform: scale(1.4);
-    
+    transition: 400ms;
 }
 
 #menulittle:hover{
@@ -96,7 +100,7 @@ menu > ul > li > a {
                                                         /* M A I N     C O N T E U D O     D O    S I T E*/
 
 main{
-    width: 96vw;
+
     padding-top: 20px;
 }
 
@@ -162,6 +166,7 @@ main > article .fraselocal > aside > p {
 .frasefoto > article > a:hover{
     border: 1px solid rgba(0, 0, 0, 0.139);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.138);
+    transition: 400ms;
 }
 
 .icones{
@@ -172,6 +177,7 @@ main > article .fraselocal > aside > p {
 
 .icones img:hover{
     transform: scale(1.1);
+    transition: 400ms;
 }
 
 .icones a{
@@ -295,9 +301,10 @@ main > article .fraselocal > aside > p {
     border-radius: 5px;
 }
 
-.portifolio > div >a:hover{
+.portifolio > div > div >a:hover{
     border: 1px solid rgba(0, 0, 0, 0.139);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.138);
+    transition: 400ms;
 }
 
 .catalogos{
@@ -308,9 +315,14 @@ main > article .fraselocal > aside > p {
 
 .catalogos > a > img {
     border-radius: 20px;
-    width: 360px;
-    height: 250px;
+    width: 320px;
+    height: 230px;
     box-shadow: 3px 50px 1px rgba(0, 0, 0, 0.238);
+}
+
+.catalogos:hover{
+    transform: scale(1.1);
+    transition: 400ms;
 }
 
 .catalogos > div{
