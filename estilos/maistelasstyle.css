@@ -19,11 +19,11 @@ html{
 }
 
 header{
-    height: 50vh;
+    height: 70vh;
 }
 
 .imghead{
-    text-align: left;
+    text-align: center;
 }
 
 .imghead > a >img {
