@@ -198,7 +198,7 @@ main > article .fraselocal > aside > p {
     margin-top: 50px;
     padding: 20px 0px 20px 0px;
     background-color: rgb(175, 150, 137);
-    height: 1130px;
+    height: 1230px;
 }
 
 .depoimento > h2{
@@ -233,8 +233,7 @@ main > article .fraselocal > aside > p {
 }
 
 .frasefundo{
-
-    height: 1500px;
+    height: 1600px;
     background-image: url('../imagens/Mirella/2.jpg');
     background-position:top left;
 }
@@ -249,9 +248,8 @@ main > article .fraselocal > aside > p {
 }
 
 .portifolio{
-    height: 680px;
+    height: 779px;
     background-color: rgba(252, 252, 252, 0.052);
-
 }
 
 .portifolio > h1 {
@@ -263,7 +261,7 @@ main > article .fraselocal > aside > p {
 }
 
 .portifolio > div{
-    height: 500px;
+    height: 600px;
     background-color: rgba(255, 255, 255, 0.044);
     padding: 20px;
     text-align: center;
@@ -280,7 +278,7 @@ main > article .fraselocal > aside > p {
     line-height: 2.3;
     color: white;
     font-size: 1.2em;
-    padding: 70px;
+    padding: 50px;
 }
 
 .portifolio > div > a{
@@ -298,9 +296,9 @@ main > article .fraselocal > aside > p {
 }
 
 .catalogos{
-    height: 400px;
+    height: 300px;
     text-align: center;
-    padding: 20px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
 }
 
 .catalogos > a > img {
@@ -320,6 +318,65 @@ main > article .fraselocal > aside > p {
     border-radius: 10px;
     font-size: 1.2em;
     font-family: 'rajdhani',Arial, Helvetica, sans-serif;
+}
+
+.contato{
+    text-align: center;
+    height: 650px;
+    margin-top: 90px;
+    padding: 100px 50px 60px 50px;
+    background-color: rgb(160, 139, 96);
+    color: white;
+}
+
+.contato > h1 {
+    font-size: 2em;
+    padding: 20px;
+}
+
+.contato > h2 {
+    padding: 20px;
+    font-family:'rajdhani',Arial, Helvetica, sans-serif ;
+}
+.contato > h3{
+    font-family:'rajdhani',Arial, Helvetica, sans-serif ;
+    padding: 20px 20px 50px 20px;
+}
+.contato > p {
+    text-align: center;
+    line-height: 1.9;
+}
+
+.orcamento{
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.orcamento > h1{
+    color:  rgb(160, 139, 96);
+    font-size: 3em;
+    padding: 0px 0px 40px 0px;
+}
+
+.orcamento > a {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.587);
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.orcamento > a:hover{
+    background-color:  rgb(160, 139, 96);
+    transition: 400ms;
+}
+
+.orcamento > p {
+    padding: 30px;
+    line-height: 2;
+    color:  rgb(160, 139, 96);
 }
 
 }
