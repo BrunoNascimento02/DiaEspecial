@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 /* font-family: 'Dancing Script', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
@@ -21,19 +23,22 @@ header{
 }
 
 .imghead{
-    text-align: center;
+    text-align: left;
+}
+
+.imghead > a >img {
+    width: 400px;
 }
 
 .menulittle1{
-    text-align: end;
+    text-align: center;
     background-color: rgb(173, 146, 131);
-    padding: 10px 0px 10px 0px;
 }
 #menulittle{
-    font-size: 2.3em;
+    font-size: 4.3em;
     color: rgb(255, 255, 255);
+    display: none;
 }
-
 
 #menulittle:active{
     transform: scale(2.6);
@@ -44,18 +49,26 @@ header{
     cursor: pointer;
 }
 
+menu{
+    display: block;
+}
+
 menu > ul{
     text-align: center;
     list-style: none;
-}
-
-menu > ul > li {
-    padding: 30px 0px 20px 0px;
+    padding: 10px 0px 10px 0px;
     background-color: rgb(173, 146, 131);
 }
 
+menu > ul > li {
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(173, 146, 131);
+    display: inline;
+    border-radius: 5px;
+}
+
 menu > ul > li:hover{
-    background-color: rgb(90, 65, 79);
+    background-color: rgba(90, 65, 79, 0.241);
     transition: 400ms;
 }
 menu > ul > li > a {
@@ -94,7 +107,7 @@ menu > ul > li > a {
     }
   }
   
-                                    /* M A I N     C O N T E U D O     D O    S I T E*/
+                                                        /* M A I N     C O N T E U D O     D O    S I T E*/
 
 main{
     padding-top: 20px;
@@ -103,41 +116,42 @@ main{
 main > article .fraselocal {
     background-color: rgb(173, 146, 131);
     padding: 100px 0px 50px 10px;
-    border-radius: 10px;
+
+    height: 700px;
 }
 main > article .fraselocal > h1{
     font-family:'Dancing Script',Arial, Helvetica, sans-serif;
     font-size: 4.4em;
     color: white;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 60px 0px 60px 0px;
 }
 main > article .fraselocal > h2{
     font-family: 'Rajdhani',Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 50px 0px 50px 0px;
     font-weight: lighter;
+    font-size: 1.8em;
 }
 
 main > article .fraselocal > aside > p {
     font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
+    font-size: 1.4em;
     text-align: center;
     color: white;
+    padding: 5px;
 }
 
 
-                  /* C O N T E U D O    D A    L O G O    E    T E X T O   E M    S E G U I D A*/
-
-
+                                            /* C O N T E U D O    D A    L O G O    E    T E X T O   E M    S E G U I D A*/
 .frasefoto > article{
     text-align: center;
     padding-bottom: 80px;
 }
 
 .frasefoto > article > img {
-    width: 50vw;
+    width: 30vw;
     text-align: center;
     opacity: 0.7;
 }
@@ -145,9 +159,9 @@ main > article .fraselocal > aside > p {
 .frasefoto > article > p {
     text-align: justify;
     font-family: arial;   
-    padding: 0px 20px 50px 20px;
+    padding: 0px 90px 50px 90px;
     line-height: 1.5em;
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: rgb(195, 171, 171);
 }
 
@@ -191,10 +205,16 @@ main > article .fraselocal > aside > p {
 .fotodela {
     text-align: center;
     padding: 50px 0px;
+    background-image: url('../imagens/Mirella/3.jpg');
+    background-position:top center;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    height: 900px;
 }
 
 .fotodela > picture > a >img {
     border-radius: 20px;
+    display: none;
 }
 
                                 /* D   E   P   O   I   M   E   N   T   O   S*/
@@ -203,7 +223,7 @@ main > article .fraselocal > aside > p {
     margin-top: 50px;
     padding: 20px 0px 20px 0px;
     background-color: rgb(175, 150, 137);
-    height: 1430px;
+    height: 40%;
 }
 
 .depoimento > h2{
@@ -211,6 +231,7 @@ main > article .fraselocal > aside > p {
     text-align: center;
     font-size: 5em;
     color: white;
+    padding-bottom: 70px;
 }
 
 .depoimento >div> picture> h3{
@@ -223,53 +244,63 @@ main > article .fraselocal > aside > p {
     text-align: center;
 }
 
+.depoimento > div {
+    columns: 2;
+}
+
 .depoimento > div > picture > img {
     border-radius: 50%;
     padding: 40px;
+    height: 300px;
 }
 
 .depoimento > div > picture > p{
     font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
-    padding: 50px 70px 50px 70px;
+    padding: 180px 70px 50px 70px;
     font-size: 1.4em;
-    line-height: 1.5;
+    line-height: 2.5;
     color: white;
 }
 
-/* I M A G E M    D E L A    C O M   F R A S E    D E   F U N D O*/
+.depoimento > div > picture > p::after{
+    content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur veniam quas unde facere, veritatis, nam, aperiam asperiores similique neque excepturi alias eum. Vero asperiores adipisci iure illo eveniet? Nulla, illum! Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptas fugiat, quasi cumque, accusantium culpa dicta cupiditate ab corrupti quos ipsum illum expedita corporis nobis earum aspernatur ducimus incidunt exercitationem?";
+}
+
+                                  /* I M A G E M    D E L A    C O M   F R A S E    D E   F U N D O*/
 
 .frasefundo{
     background-image: url('../imagens/Mirella/3.jpg');
-    background-position:center center;
+    background-position: center top;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .frasefundo > h1 {
-    color: rgb(165, 117, 117);
+    color: rgba(0, 0, 0, 0.681);
     font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
     text-align: center;
-    padding: 20% 70px ;
+    padding: 20px 200px ;
     line-height: 3;
-    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.424);
-    background-color: rgba(240, 248, 255, 0.818);
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.424);
+    background-color: rgba(250, 235, 215, 0.775);
 }
 
 .portifolio{
-    height: 779px;
-    background-color: rgba(240, 248, 255, 0.818);
+    height: 20%;
+    background-color: rgba(250, 235, 215, 0.775);
 }
 
 .portifolio > h1 {
     font-family: 'rajdhani', Arial, Helvetica, sans-serif;
     color: rgb(163, 25, 25);
     text-align: center;
-    font-size: 3em;
+    font-size: 7em;
     padding: 20px;
 }
 
 .portifolio > div{
-    height: 600px;
-    background-color: rgba(255, 255, 255, 0.044);
     padding: 10px;
     text-align: center;
 }
@@ -277,19 +308,19 @@ main > article .fraselocal > aside > p {
 .portifolio > div > h2 {
     text-align: center;
     color: rgb(54, 46, 46);
-    font-size: 1.2em;
+    font-size: 2.2em;
 }
 
 .portifolio > div > p {
-    text-align: justify;
     line-height: 1.6;
     color: rgb(93, 70, 70);
-    font-size: 1.1em;
-    padding: 20px;
+    font-size: 1.5em;
+    padding: 0px 300px 0px 300px;
 }
 
 .portifolio > div > div {
     padding-top: 90px;
+    padding-bottom: 30px;
 }
 
 .portifolio > div > div > a{
@@ -312,13 +343,13 @@ main > article .fraselocal > aside > p {
 .catalogos{
     height: 300px;
     text-align: center;
-    padding: 80px 0px 0px 0px;
+    padding: 130px 0px 30px 0px;
 }
 
 .catalogos > a > img {
     border-radius: 20px;
-    width: 320px;
-    height: 230px;
+    width: 520px;
+    height: 330px;
     box-shadow: 3px 50px 1px rgba(0, 0, 0, 0.238);
 }
 
@@ -372,9 +403,10 @@ main > article .fraselocal > aside > p {
 
 .orcamento{
     height: 400px;
-    padding: 20px;
+    padding: 70px 0px 0px 0px;
     text-align: center;
     background-color: rgb(255, 255, 255);
+    margin-bottom: -100px;
 }
 
 .orcamento > h1{
@@ -403,9 +435,9 @@ main > article .fraselocal > aside > p {
 }
 
 footer{
-    padding: 20px 0px 20px 0px;
+    padding: 10px 0px 15px 0px;
     text-align: center;
-
+    background-color: rgba(90, 98, 105, 0.068);
 }
 
 footer > div > h2 {
@@ -415,7 +447,7 @@ footer > div > h2 {
 }
 
 footer > div {
-    padding: 7px;
+    padding: px;
 }
 
 footer > div >a{
