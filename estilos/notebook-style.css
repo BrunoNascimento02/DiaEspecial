@@ -24,13 +24,17 @@ header{
     text-align: center;
 }
 
+.imghead > a >img {
+    width: 400px;
+}
+
 .menulittle1{
-    text-align: end;
+    text-align: center;
     background-color: rgb(173, 146, 131);
     padding: 10px 0px 10px 0px;
 }
 #menulittle{
-    font-size: 2.3em;
+    font-size: 4.3em;
     color: rgb(255, 255, 255);
 }
 
@@ -94,7 +98,7 @@ menu > ul > li > a {
     }
   }
   
-                                    /* M A I N     C O N T E U D O     D O    S I T E*/
+                                                        /* M A I N     C O N T E U D O     D O    S I T E*/
 
 main{
     padding-top: 20px;
@@ -104,40 +108,41 @@ main > article .fraselocal {
     background-color: rgb(173, 146, 131);
     padding: 100px 0px 50px 10px;
     border-radius: 10px;
+    height: 700px;
 }
 main > article .fraselocal > h1{
     font-family:'Dancing Script',Arial, Helvetica, sans-serif;
     font-size: 4.4em;
     color: white;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 60px 0px 60px 0px;
 }
 main > article .fraselocal > h2{
     font-family: 'Rajdhani',Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 50px 0px 50px 0px;
     font-weight: lighter;
+    font-size: 1.8em;
 }
 
 main > article .fraselocal > aside > p {
     font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
+    font-size: 1.4em;
     text-align: center;
     color: white;
+    padding: 5px;
 }
 
 
-                  /* C O N T E U D O    D A    L O G O    E    T E X T O   E M    S E G U I D A*/
-
-
+                                            /* C O N T E U D O    D A    L O G O    E    T E X T O   E M    S E G U I D A*/
 .frasefoto > article{
     text-align: center;
     padding-bottom: 80px;
 }
 
 .frasefoto > article > img {
-    width: 50vw;
+    width: 30vw;
     text-align: center;
     opacity: 0.7;
 }
@@ -145,9 +150,9 @@ main > article .fraselocal > aside > p {
 .frasefoto > article > p {
     text-align: justify;
     font-family: arial;   
-    padding: 0px 20px 50px 20px;
+    padding: 0px 90px 50px 90px;
     line-height: 1.5em;
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: rgb(195, 171, 171);
 }
 
@@ -203,7 +208,7 @@ main > article .fraselocal > aside > p {
     margin-top: 50px;
     padding: 20px 0px 20px 0px;
     background-color: rgb(175, 150, 137);
-    height: 1430px;
+    height: 1830px;
 }
 
 .depoimento > h2{
@@ -217,6 +222,7 @@ main > article .fraselocal > aside > p {
     font-size: 2.4em;
     color: white;
     font-family: 'Dancing Script',Arial, Helvetica, sans-serif;
+    padding: 50px 0px 0px 0px;
 }
 
 .depoimento > div{
@@ -226,50 +232,55 @@ main > article .fraselocal > aside > p {
 .depoimento > div > picture > img {
     border-radius: 50%;
     padding: 40px;
+    height: 500px;
 }
 
 .depoimento > div > picture > p{
     font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
-    padding: 50px 70px 50px 70px;
+    padding: 180px 70px 50px 70px;
     font-size: 1.4em;
-    line-height: 1.5;
+    line-height: 2.5;
     color: white;
 }
 
-/* I M A G E M    D E L A    C O M   F R A S E    D E   F U N D O*/
+.depoimento > div > picture > p::after{
+    content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur veniam quas unde facere, veritatis, nam, aperiam asperiores similique neque excepturi alias eum. Vero asperiores adipisci iure illo eveniet? Nulla, illum! Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptas fugiat, quasi cumque, accusantium culpa dicta cupiditate ab corrupti quos ipsum illum expedita corporis nobis earum aspernatur ducimus incidunt exercitationem?";
+}
+
+                                  /* I M A G E M    D E L A    C O M   F R A S E    D E   F U N D O*/
 
 .frasefundo{
     background-image: url('../imagens/Mirella/3.jpg');
-    background-position:center center;
+    background-position: center top;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .frasefundo > h1 {
-    color: rgb(165, 117, 117);
+    color: rgba(0, 0, 0, 0.681);
     font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 20% 70px ;
     line-height: 3;
-    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.424);
-    background-color: rgba(240, 248, 255, 0.818);
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.424);
+    background-color: rgba(250, 235, 215, 0.775);
 }
 
 .portifolio{
-    height: 779px;
-    background-color: rgba(240, 248, 255, 0.818);
+    height: 580px;
+    background-color: rgba(250, 235, 215, 0.775);
 }
 
 .portifolio > h1 {
     font-family: 'rajdhani', Arial, Helvetica, sans-serif;
     color: rgb(163, 25, 25);
     text-align: center;
-    font-size: 3em;
+    font-size: 5em;
     padding: 20px;
 }
 
 .portifolio > div{
-    height: 600px;
-    background-color: rgba(255, 255, 255, 0.044);
     padding: 10px;
     text-align: center;
 }
@@ -281,11 +292,10 @@ main > article .fraselocal > aside > p {
 }
 
 .portifolio > div > p {
-    text-align: justify;
     line-height: 1.6;
     color: rgb(93, 70, 70);
     font-size: 1.1em;
-    padding: 20px;
+    padding: 0px 60px 0px 80px;
 }
 
 .portifolio > div > div {
@@ -312,13 +322,13 @@ main > article .fraselocal > aside > p {
 .catalogos{
     height: 300px;
     text-align: center;
-    padding: 80px 0px 0px 0px;
+    padding: 130px 0px 30px 0px;
 }
 
 .catalogos > a > img {
     border-radius: 20px;
-    width: 320px;
-    height: 230px;
+    width: 520px;
+    height: 330px;
     box-shadow: 3px 50px 1px rgba(0, 0, 0, 0.238);
 }
 
@@ -400,4 +410,33 @@ main > article .fraselocal > aside > p {
     padding: 30px;
     line-height: 2;
     color:  rgb(160, 139, 96);
+}
+
+footer{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+
+}
+
+footer > div > h2 {
+    font-family:'rajdhani',Arial, Helvetica, sans-serif ;
+    color: rgba(42, 42, 42, 0.396);
+    font-size: 0.8em;
+}
+
+footer > div {
+    padding: 7px;
+}
+
+footer > div >a{
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    font-family:'rajdhani',Arial, Helvetica, sans-serif ;
+    border: 1px solid rgba(0, 0, 0, 0.204);
+    font-size: 0.8em;
+}
+
+footer > div > a:hover {
+    background-color: rgba(223, 222, 222, 0.453);
 }

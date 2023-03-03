@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/style.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="estilos/notebook-style.css" media="screen and (min-width: 600px) and (max-width:1000px)">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Dia Especial</title>
 </head>
@@ -40,7 +41,7 @@
     <main>
         <article>
             <div class="fraselocal">
-                <h1>Eternizando <br> Momentos</h1>
+                <h1>Eternizando Momentos</h1>
                 <br>
                 <h2>Em um laço de amor eterno</h2>
                 <br><br>
@@ -147,25 +148,25 @@
         </section>
     </main>
 
-    <script>
-        function clickMenu() {
-            var menu = document.querySelector('menu');
-            if (menu.style.display == 'none') {
-                menu.style.display = 'block';
-            } else {
-              menu.style.display = 'none';
-            }
-          }
-    </script>
-
     <footer>
-        <div class="final">
-            <img src="#" alt="">
-            <img src="#" alt="">
-            <img src="#" alt="">
-            <img src="#" alt="">
-            <img src="#" alt="">
+        <div>
+            <h2> Site criado por Bruno Nascimento</h2>
+        </div>
+        <div>
+            <a href="#">link para contato</a>
         </div>
     </footer>
+
 </body>
 </html>
+
+<script>
+    function clickMenu() {
+        var menu = document.querySelector('menu');
+        if (menu.style.display == 'none') {
+            menu.style.display = 'block';
+        } else {
+          menu.style.display = 'none';
+        }
+      }
+</script>
