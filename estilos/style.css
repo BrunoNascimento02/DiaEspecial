@@ -107,7 +107,6 @@ main{
 main > article .fraselocal {
     background-color: rgb(173, 146, 131);
     padding: 100px 0px 50px 10px;
-    width: 95vw;
     border-radius: 10px;
 }
 main > article .fraselocal > h1{
