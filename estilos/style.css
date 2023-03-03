@@ -233,54 +233,60 @@ main > article .fraselocal > aside > p {
 
 .frasefundo{
     height: 1600px;
-    background-image: url('../imagens/Mirella/2.jpg');
-    background-position:top left;
+    background-image: url('../imagens/Mirella/3.jpg');
+    background-position:center center;
+    background-size: cover;
 }
 
 .frasefundo > h1 {
-    color: rgb(207, 172, 144);
+    color: rgb(165, 117, 117);
     font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 40% 70px ;
+    padding: 20% 70px ;
     line-height: 3;
-    text-shadow: 1px 1px 30px rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.424);
+    background-color: rgba(240, 248, 255, 0.818);
 }
 
 .portifolio{
     height: 779px;
-    background-color: rgba(252, 252, 252, 0.052);
+    background-color: rgba(240, 248, 255, 0.818);
 }
 
 .portifolio > h1 {
     font-family: 'rajdhani', Arial, Helvetica, sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(163, 25, 25);
     text-align: center;
-    font-size: 5em;
+    font-size: 3em;
     padding: 20px;
 }
 
 .portifolio > div{
     height: 600px;
     background-color: rgba(255, 255, 255, 0.044);
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
 .portifolio > div > h2 {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(54, 46, 46);
     font-size: 1.2em;
 }
 
 .portifolio > div > p {
     text-align: justify;
-    line-height: 2.3;
-    color: white;
-    font-size: 1.2em;
-    padding: 50px;
+    line-height: 1.6;
+    color: rgb(93, 70, 70);
+    font-size: 1.1em;
+    padding: 20px;
 }
 
-.portifolio > div > a{
+.portifolio > div > div {
+    padding-top: 90px;
+}
+
+.portifolio > div > div > a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: rgba(215, 215, 215);
@@ -297,11 +303,13 @@ main > article .fraselocal > aside > p {
 .catalogos{
     height: 300px;
     text-align: center;
-    padding: 50px 0px 0px 0px;
+    padding: 80px 0px 0px 0px;
 }
 
 .catalogos > a > img {
     border-radius: 20px;
+    width: 360px;
+    height: 250px;
     box-shadow: 3px 50px 1px rgba(0, 0, 0, 0.238);
 }
 
