@@ -12,12 +12,12 @@
 
 @media screen and (max-width: 600px) {
 
+html{
+    background-color: rgb(255, 255, 255);
+}
 
 header{
-    height: 40vh;
-    width: 96vw;
-    padding: 50px 0px 10px 0px;
-    border-radius: 2px;
+    height: 50vh;
 }
 
 .imghead{
@@ -27,11 +27,10 @@ header{
 .menulittle1{
     text-align: end;
     background-color: rgb(173, 146, 131);
-    margin: 0px 3px 0px 0px;
+    padding: 10px 0px 10px 0px;
 }
 #menulittle{
     font-size: 2.3em;
-    padding-left: 60vw;
     color: rgb(255, 255, 255);
 }
 
@@ -47,7 +46,6 @@ header{
 menu > ul{
     text-align: center;
     list-style: none;
-    width: 96vw;
 }
 
 menu > ul > li {
@@ -232,6 +230,96 @@ main > article .fraselocal > aside > p {
     font-size: 1.4em;
     line-height: 1.5;
     color: white;
+}
+
+.frasefundo{
+
+    height: 1500px;
+    background-image: url('../imagens/Mirella/2.jpg');
+    background-position:top left;
+}
+
+.frasefundo > h1 {
+    color: rgb(207, 172, 144);
+    font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 40% 70px ;
+    line-height: 3;
+    text-shadow: 1px 1px 30px rgb(255, 255, 255);
+}
+
+.portifolio{
+    height: 680px;
+    background-color: rgba(252, 252, 252, 0.052);
+
+}
+
+.portifolio > h1 {
+    font-family: 'rajdhani', Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 5em;
+    padding: 20px;
+}
+
+.portifolio > div{
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.044);
+    padding: 20px;
+    text-align: center;
+}
+
+.portifolio > div > h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+}
+
+.portifolio > div > p {
+    text-align: justify;
+    line-height: 2.3;
+    color: white;
+    font-size: 1.2em;
+    padding: 70px;
+}
+
+.portifolio > div > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(215, 215, 215);
+    padding: 20px 20px 20px 20px;
+    border: 1px solid rgba(4, 4, 4, 0.435);
+    border-radius: 5px;
+}
+
+.portifolio > div >a:hover{
+    border: 1px solid rgba(0, 0, 0, 0.139);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.138);
+}
+
+.catalogos{
+    height: 400px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.catalogos > a > img {
+    border-radius: 20px;
+    box-shadow: 3px 50px 1px rgba(0, 0, 0, 0.238);
+}
+
+.catalogos > div{
+    height: 40px;
+    padding: 10px 0px 0px 0px;
+} 
+
+.catalogos > div > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding:20px 30px 5px 30px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-family: 'rajdhani',Arial, Helvetica, sans-serif;
 }
 
 }
